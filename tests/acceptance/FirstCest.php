@@ -10,7 +10,8 @@ class FirstCest
    {
 
        $I->wantTo( 'Open google webpage' );
-       $I->amOnPage('google.com');
-       $I->seeInCurrentUrl('google');
+       $I->amOnPage('kolesa.kz');
+       $I->seeInCurrentUrl('kolesa');
+       $I->seeElement("//*[@class = 'main-logo ']");
    }
 }
