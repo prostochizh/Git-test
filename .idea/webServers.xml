@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="9b0ca4b6-02b6-42a3-9af0-4728f5f9e9c8" name="sandbox" url="http://chizhevskiy.sandbox.alahd.kz.dev.bash.kz">
+        <fileTransfer rootFolder="/var/www/" accessType="SFTP" host="chizhevskiy.sandbox.alahd.kz.dev.bash.kz" port="22" sshConfigId="37d49630-5ab7-4c58-befc-6569dd40efdd" sshConfig="sandbox">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
