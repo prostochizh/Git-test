@@ -12,7 +12,7 @@ modules:
     config:
         WebDriver:
             url: 'https://kolesa.kz/'
-            host: 'localhost'
+#            host: 'localhost'
             port: 9515
 #            port: 4444
             browser: chrome
