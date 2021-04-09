@@ -2,7 +2,7 @@
 <project version="4">
   <component name="SshConfigs">
     <configs>
-      <sshConfig authType="PASSWORD" host="chizhevskiy.sandbox.alahd.kz.dev.bash.kz" id="37d49630-5ab7-4c58-befc-6569dd40efdd" port="22" customName="sandbox" nameFormat="CUSTOM" username="www-data">
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="chizhevskiy.sandbox.alahd.kz.dev.bash.kz" id="37d49630-5ab7-4c58-befc-6569dd40efdd" port="22" customName="sandbox" nameFormat="CUSTOM" username="www-data">
         <option name="customName" value="sandbox" />
       </sshConfig>
     </configs>
