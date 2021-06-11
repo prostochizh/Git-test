@@ -13,8 +13,7 @@ modules:
         - Asserts
     config:
         WebDriver:
-            #url: 'https://prostochizh.github.io/form'
-            url: 'https://habr.com/ru/'
+            url: 'https://kolesa.kz/'
             host: 10.10.253.108
  #           port: 9515
             port: 4444

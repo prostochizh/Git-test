@@ -33,7 +33,7 @@ class SearchCest
 
     protected function getDataForSearchCarsByBody()
     {
-        return [
+        $carBodyTypedata = [
             ['carBodyType' => 'sedan', 'url' => 'sedan'],
             ['carBodyType' => 'station-wagon', 'url' => 'station-wagon'],
             ['carBodyType' => 'hatchback', 'url' => 'hatchback'],
@@ -53,5 +53,7 @@ class SearchCest
             ['carBodyType' => 'liftback', 'url' => 'liftback'],
             ['carBodyType' => 'hardtop', 'url' => 'hardtop'],
         ];
+
+        return [$carBodyTypedata[array_rand($carBodyTypedata)]];
     }
 }
