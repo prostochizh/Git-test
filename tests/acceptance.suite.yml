@@ -9,17 +9,21 @@ modules:
     enabled:
         - WebDriver
         - \Helper\Acceptance
+        - \Helper\BaseHelper
+        - Asserts
     config:
         WebDriver:
-            url: 'https://kolesa.kz/'
-            host: 'localhost'
-#            port: 9515
+            #url: 'https://prostochizh.github.io/form'
+            url: 'https://habr.com/ru/'
+            host: 10.10.253.108
+ #           port: 9515
             port: 4444
             browser: chrome
             window_size: 1280x800
             request_timeout: 120
             connection_timeout: 120
             pageload_timeout: 60
+            restart: true
 #            capabilities:
 #                goog:chromeOptions:
 #                    args: [ "--headless", "--disable-gpu" ]
