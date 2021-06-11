@@ -8,12 +8,4 @@ actor_suffix: Tester
 extensions:
     enabled:
         - Codeception\Extension\RunFailed
-        - agentPHPCodeception
-    config: 
-         agentPHPCodeception:
-            UUID: 07104d6b-45a0-442f-b7ed-a79fa5321123
-            host: https://rp.epam.com
-            projectName: Git-test
-            timeZone: .000+00:00
-            launchName: test launch name !!!
-            launchDescription: test launch description !!!
+       
