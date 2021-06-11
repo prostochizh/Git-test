@@ -56,9 +56,4 @@ class SearchCest
 
         return [$carBodyTypedata[array_rand($carBodyTypedata)]];
     }
-    
-    public function checkTest(AcceptanceTester $I)
-    {
-        $I->amOnPage("");
-    }
 }
