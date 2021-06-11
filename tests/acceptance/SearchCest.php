@@ -7,13 +7,13 @@ use Page\Search;
 
 /**
  * Класс для тестирования поиска
- * @group test
+ *
  */
 class SearchCest 
 {
     /**
      * Тест на проверку поиска легковых по типу кузова
-     * @group test
+     * 
      * @param Example $data
      * @dataProvider getDataForSearchCarsByBody
      */
