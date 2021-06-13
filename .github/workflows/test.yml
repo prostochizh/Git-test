@@ -16,4 +16,10 @@ jobs:
         run:  php vendor/bin/codecept run functional --steps -vvv
       - name: JUnit Report Action
         uses: mikepenz/action-junit-report@v2.4.2
-  
+  acceptance:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install dependecies
+      - name: Run test cases
+        run:  php vendor/bin/codecept run functional --steps -vvv
