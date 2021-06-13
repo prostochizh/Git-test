@@ -15,7 +15,7 @@ jobs:
       - name: JUnit Report Action
         uses: mikepenz/action-junit-report@v2.4.2
         with:
-          report_paths: '**/build/test-results/test/TEST-*.xml'
+          report_paths: '**/junit-reports/TEST-*.xml'
   acceptance:
     runs-on: ubuntu-latest
     steps:
