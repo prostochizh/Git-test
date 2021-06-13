@@ -23,4 +23,4 @@ jobs:
       - name: Install dependecies
         run: composer install
       - name: Run test cases
-        run:  php vendor/bin/codecept run functional --steps -vvv
+        run:  php vendor/bin/codecept run acceptance --steps -vvv
