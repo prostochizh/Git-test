@@ -77,7 +77,7 @@ class UsersCest
             [
                 'email' => true,
                 'owner' => false,
-                'errorText' => ['message' => 'email не передан']
+                'errorText' => ['message' => '111']
             ],
             [
                 'email' => false,
