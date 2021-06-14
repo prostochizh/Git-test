@@ -34,8 +34,8 @@ class SearchCest
     protected function getDataForSearchCarsByBody()
     {
         $carBodyTypedata = [
-            ['carBodyType' => 'sedan', 'url' => 'sds'],
-            ['carBodyType' => 'station-wagon', 'url' => 'statsdsdsion-wagon'],
+            ['carBodyType' => 'sedan', 'url' => 'sedan'],
+            ['carBodyType' => 'station-wagon', 'url' => 'station-wagon'],
            
         ];
 
